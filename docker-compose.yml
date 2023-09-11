@@ -6,8 +6,8 @@ services:
       dockerfile: .docker/php/Dockerfile
     ports:
       - 9000:9000
-    volumes:
-      - ./testapp:/var/www/test.com
+    #volumes:
+    #  - ./testapp:/var/www/test.com
     depends_on:
       mysql:
         condition: service_healthy
