@@ -18,8 +18,6 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 RUN curl -sS https://get.symfony.com/cli/installer | bash
 
-RUN sleep 5
-
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
 RUN composer install
