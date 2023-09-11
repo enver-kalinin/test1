@@ -5,6 +5,7 @@ Docker container with PHP 8.2 + MySQL 8 + NGINX + test Symfony 6.3 project
 ## Installation
 
 ```bash
+git clone https://github.com/enver-kalinin/test1.git
 make all
 ```
 
