@@ -6,6 +6,7 @@ Docker container with PHP 8.2 + MySQL 8 + NGINX + test Symfony 6.3 project
 
 ```bash
 git clone https://github.com/enver-kalinin/test1.git
+cd test1
 make all
 ```
 
