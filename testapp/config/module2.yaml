@@ -1,0 +1,3 @@
+services:
+    module2_service:
+        class: 'App\Module1\Module2Service'
