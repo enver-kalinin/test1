@@ -20,4 +20,6 @@ RUN curl -sS https://get.symfony.com/cli/installer | bash
 
 WORKDIR /var/www/test.com/testapp
 
+ENV COMPOSER_ALLOW_SUPERUSER=1
+
 RUN composer install -n
