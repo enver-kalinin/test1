@@ -18,4 +18,6 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 RUN curl -sS https://get.symfony.com/cli/installer | bash
 
-#RUN composer install -n
+WORKDIR /var/www/test.com/testapp
+
+RUN composer install -n
